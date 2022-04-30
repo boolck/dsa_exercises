@@ -1,4 +1,4 @@
-package com.boolck.programs;
+package com.boolck.dsa;
 
 /*
   Q2. 3 monkeys with 10 peaches to eat, assume the name of Monkeys are A, B and C.

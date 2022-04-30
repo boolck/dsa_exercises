@@ -1,4 +1,4 @@
-package com.boolck.programs;
+package com.boolck.dsa;
 
 /*
         Q1. Please check if two Strings are "Anagram",

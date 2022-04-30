@@ -1,4 +1,4 @@
-package com.boolck.programs;
+package com.boolck.dsa;
 
 import org.junit.Assert;
 import org.junit.Test;

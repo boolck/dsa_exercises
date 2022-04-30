@@ -1,4 +1,4 @@
-package com.boolck.programs;
+package com.boolck.dsa;
 
 /*
         Q3. Please design the data structures for a very large social network
