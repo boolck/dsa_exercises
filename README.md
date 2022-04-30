@@ -1,2 +1,2 @@
-# lazadadev
-Lazada SGP take home Java based coding exercise
+# small java exercises
+usually small programs of 1 class each for trivial programming exercises
