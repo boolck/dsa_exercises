@@ -1,4 +1,4 @@
-package com.lazada.solution;
+package com.boolck.programs;
 
 /*
         Q1. Please check if two Strings are "Anagram",

@@ -1,4 +1,4 @@
-package com.lazada.solution;
+package com.boolck.programs;
 
 import org.junit.Assert;
 import org.junit.BeforeClass;

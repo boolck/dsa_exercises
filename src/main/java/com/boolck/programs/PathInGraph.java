@@ -1,4 +1,4 @@
-package com.lazada.solution;
+package com.boolck.programs;
 
 /*
         Q3. Please design the data structures for a very large social network
