@@ -1,7 +1,7 @@
 package com.boolck.dsa;
 
 /*
-        Q3. Please design the data structures for a very large social network
+        Please design the data structures for a very large social network
         like Tictok, Facebook, etc?
         Please design an algorithm to show the path or link-chain between two people
         (e.g., You –> Jim –> Lily –> David –> Me).

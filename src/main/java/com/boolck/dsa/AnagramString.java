@@ -1,7 +1,7 @@
 package com.boolck.dsa;
 
 /*
-        Q1. Please check if two Strings are "Anagram",
+        Please check if two Strings are "Anagram",
         Definition of anagram: If you rearrange the order of the letters / characters in two strings,
         you can get the same string: e.g: cinema, iceman.
 */
@@ -9,10 +9,6 @@ package com.boolck.dsa;
 public class AnagramString {
 
     public boolean areTwoStringsAnagram(String textA, String textB) {
-        if (textA == null && textB == null) {
-            return false;
-        }
-
         if (textA == null || textB == null) {
             return false;
         }
