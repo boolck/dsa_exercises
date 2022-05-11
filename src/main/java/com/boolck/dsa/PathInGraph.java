@@ -11,7 +11,7 @@ import java.util.*;
 
 public class PathInGraph {
 
-    public static class Graph {
+    static class Graph {
         private final Map<String, Set<String>> adjacencyList = new HashMap<>();
 
         public void addEdge(String node1, String node2) {
@@ -28,10 +28,10 @@ public class PathInGraph {
         }
     }
 
-    public class Path {
+     static class Path {
 
-        private String start, end;
-        private List<List<String>> allPaths;
+        private final String start, end;
+        private final List<List<String>> allPaths;
 
         public Path(String start, String end) {
             this.start = start;

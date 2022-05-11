@@ -8,7 +8,7 @@ package com.boolck.dsa;
 
 public class AnagramString {
 
-    public boolean areTwoStringsAnagram(String textA, String textB) {
+    private static  boolean areTwoStringsAnagram(String textA, String textB) {
         if (textA == null || textB == null) {
             return false;
         }
@@ -32,6 +32,11 @@ public class AnagramString {
             }
         }
         return true;
+    }
+
+    public static void main(String... args){
+        System.out.println(areTwoStringsAnagram("abc","cab"));
+        System.out.println(areTwoStringsAnagram("aaa","bbbc"));
     }
 
 }
