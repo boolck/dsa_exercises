@@ -44,10 +44,10 @@ public class CollatzConjecture {
         }
         int steps ;
         if(n%2==0){
-            steps = getCollatzConjecture_Recursive(n/2)+1;
+            steps = getCollatzConjecture_RecursiveMemo(n/2,memo)+1;
         }
         else{
-            steps = getCollatzConjecture_Recursive(3*n+1)+1;
+            steps = getCollatzConjecture_RecursiveMemo(3*n+1,memo)+1;
         }
         memo.put(n,steps);
         return steps;
